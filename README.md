@@ -40,7 +40,7 @@ No build step is required. Keep the loaded folder in place while the extension i
 
 ### From a packaged ZIP
 
-1. Extract `scroll-and-screenshots-v1.0.6.zip` produced by this project.
+1. Download [scroll-and-screenshots-v1.0.6.zip](https://github.com/XiancaiTian/scroll-and-screenshots/raw/refs/heads/main/downloads/scroll-and-screenshots-v1.0.6.zip) and extract it.
 2. Open `chrome://extensions` and enable **Developer mode**.
 3. Click **Load unpacked** and select the extracted `scroll-and-screenshots` folder containing `manifest.json`.
 

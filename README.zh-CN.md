@@ -40,7 +40,7 @@
 
 ### 从 ZIP 安装包安装
 
-1. 解压本项目生成的 `scroll-and-screenshots-v1.0.6.zip`。
+1. 下载 [scroll-and-screenshots-v1.0.6.zip](https://github.com/XiancaiTian/scroll-and-screenshots/raw/refs/heads/main/downloads/scroll-and-screenshots-v1.0.6.zip) 并解压。
 2. 打开 `chrome://extensions`，开启「开发者模式」。
 3. 点击「加载已解压的扩展程序」，选择解压后包含 `manifest.json` 的 `scroll-and-screenshots` 目录。
 
