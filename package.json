@@ -1,0 +1,8 @@
+{
+  "name": "scroll-and-screenshots",
+  "version": "1.0.6",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test tests/core.test.js tests/i18n.test.js", "test:e2e": "node tests/e2e.mjs", "icons": "node scripts/build_icons.mjs", "package": "python3 scripts/package.py" }
+}

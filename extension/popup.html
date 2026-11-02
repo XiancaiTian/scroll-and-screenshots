@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ScrollShot</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><img class="mark" src="icons/icon128.png" alt="" width="42" height="42"><div class="heading"><h1>ScrollShot</h1><p data-i18n="subtitle">Scroll. Capture. Save.</p></div><button id="language" class="language" aria-label="Switch to Chinese" title="Switch to Chinese">中文</button></header>
+  <div class="page"><span data-i18n="currentPage">Current page</span><strong id="title">Loading…</strong></div>
+  <div class="settings">
+    <label for="delay"><span data-i18n="scrollWait">Scroll wait</span><small data-i18n="waitHint">Allow images to load</small></label>
+    <select id="delay"><option value="800" data-i18n="delay800">Standard · 0.8 s</option><option value="1500" data-i18n="delay1500">Slower · 1.5 s</option><option value="3000" data-i18n="delay3000">Slow · 3 s</option><option value="5000" data-i18n="delay5000">Very slow · 5 s</option></select>
+    <label for="maxPages" data-i18n="imageLimit">Image limit</label>
+    <input id="maxPages" type="number" min="1" max="5000" value="1000">
+  </div>
+  <div class="status" role="status" aria-live="polite"><span id="status">Ready</span><strong id="count">0 images</strong><p id="folder">Save to: Downloads / Page title / 0001.png</p></div>
+  <button id="start" class="primary" data-i18n="start" disabled>Start capture</button>
+  <button id="stop" class="stop" data-i18n="stop" hidden>Stop capture</button>
+  <button id="show" class="link" data-i18n="show" hidden>Show in folder ↗</button>
+  <p class="note" data-i18n="note">Keep the target tab selected. Do not scroll, minimize, or resize the window during capture. Closing this popup will not stop capture.</p>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

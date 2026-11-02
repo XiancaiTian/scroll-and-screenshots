@@ -1,0 +1,17 @@
+node_modules/
+test-output/browser-profile/
+test-output/downloads/
+test-output/runs/**/browser-profile/
+.DS_Store
+
+# Local artifacts and working notes
+/dist/
+/test-output/
+/task_plan.md
+/progress.md
+/findings.md
+/测试报告.md
+/.planning/
+/.plan-attestation
+.env
+.env.*
